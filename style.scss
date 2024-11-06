@@ -1,0 +1,85 @@
+//siodfjsofj
+@import './partials/reset';
+@import './partials/mxins-generici';
+@import './partials/spaziature';
+@import './partials/font';
+@import './partials/colori';
+@import './partials/bottoni';
+@import './partials/animazione';
+
+body {
+  font-family: $font-family;
+}
+
+a {
+  margin: $margin-inline-normal;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  color: $color-testo;
+  text-decoration: none;
+  background-color: rgb(80, 80, 255);
+  padding-bottom: $padding-top-bot;
+  padding-top: $padding-top-bot;
+  margin-bottom: $margin-bot-top;
+}
+
+.hero {
+  @include floating;
+  padding: $padding-block-normal;
+  background-color: $hero-bg;
+  margin: $margin-bot-top;
+  color: $color-testo;
+  @include fadeindown;
+}
+p {
+  @include fadeindown;
+}
+button {
+  @include fadeindown;
+}
+.btnblue {
+  @include btnblue;
+  @include floating;
+}
+
+.btnorange {
+  @include btnorange;
+  @include floating;
+}
+
+.btngreen {
+  @include btngreen;
+  @include floating;
+}
+
+.microgatto {
+  @include floating;
+  float: left;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  width: 15%;
+  height: auto;
+  @include flex;
+  @include fadeindown;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  @include floating;
+}

@@ -1,0 +1,9 @@
+@mixin floating() {
+  border-radius: 50px;
+  box-shadow: 5px 7px 20px -1px #58585881;
+  border: 1px solid white;
+}
+
+@mixin flex() {
+  display: flex;
+}

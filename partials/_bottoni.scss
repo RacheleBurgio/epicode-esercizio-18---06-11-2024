@@ -1,0 +1,27 @@
+@mixin btnblue() {
+  background-color: $button-one;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #f4f4f4;
+}
+@mixin btnorange() {
+  background-color: $button-two;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #f4f4f4;
+}
+@mixin btngreen() {
+  background-color: $button-three;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #f4f4f4;
+}
